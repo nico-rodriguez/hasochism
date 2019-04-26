@@ -1,0 +1,24 @@
+1. Introduction
+	=> separación términos / tipos
+		=> algunos la justifican porque es la base para la compilación eficiente
+
+2. A Variety of Quantifiers
+	=> DataKinds => extension de Haskell => promueve los tipos a Kinds y los valores a tipos
+	=> Type Families => extensión de Haskell => definir familias (funciones) de tipos
+	=> la igualdad de tipos en Haskell es sintactica. Los tipos son diferentes aunque "evalúen" lo mismo.
+	=> cuando se necesita hacer referencia en tiempo de ejecución a información codificada en el tipo
+		=> Singleton GADT
+
+	=> para hacer explícitos en tiempo de compilación los datos estáticos
+		=> Proxy Types => para poder hacer referencia a un tipo
+		=> ScopedTypeVariables
+
+	=> Resúmen => cuantificador estático e implícito vs dependent types dinámicos y explícitos
+
+3. Explicit and Implicit Pi-Types
+	=> Type Classes
+		=> para pasar implícitamente un valor
+		=> para realizar implícitamente una prueba (e.g. lista ordenada)
+
+4. An Ordered Silence
+	=> Merge-Sort => el tipo garantiza que la salida está ordenada
